@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('img/hero.jpg')",
+        customers: "url('img/back-customers.jpg')",
         
       }
     

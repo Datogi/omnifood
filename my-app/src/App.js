@@ -107,7 +107,7 @@ function App() {
                 </li>
             </ul>
 </section>
-<section className='bg-white'>
+<section className='bg-gray-500 '>
 <div class="max-w-6xl ml-80">
                 <h2 className='text-6xl font-thin' >How it works - Simple as 1, 2, 3</h2>
             </div>
@@ -134,6 +134,268 @@ function App() {
                 </div></div>
             </div>
 </section>
+<section >
+<div class="max-w-6xl ml-80 mt-20">
+                <h2  className='text-6xl font-thin'>We're currently in these cities</h2>
+            </div>
+            <div class="max-w-6xl ml-24 columns-4 mt-12">
+                <div class="">
+                    <img src="lisbon-3.jpg" alt="Lisbon"/>
+                    <div class="mt-2">
+                        <ion-icon class="icon-small" name="person"></ion-icon>
+                        1600+ happy eaters
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="star"></ion-icon>
+                        60+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                        @omnifood_lx
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="san-francisco.jpg" alt="San Francisco"/>
+                    <div class="mt-2">
+                        <ion-icon class="icon-small" name="person"></ion-icon>
+                        3700+ happy eaters
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="star"></ion-icon>
+                        160+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                        @omnifood_sf
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="berlin.jpg" alt="Berlin"/>
+                    <div class="mt-2">
+                        <ion-icon class="icon-small" name="person"></ion-icon>
+                        2300+ happy eaters
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="star"></ion-icon>
+                        110+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                        @omnifood_berlin
+                    </div>
+                </div>
+                <div class="">
+                    <img src="london.jpg" alt="London"/>
+                    <div class="mt-2">
+                        <ion-icon class="icon-small" name="person"></ion-icon>
+                        1200+ happy eaters
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="star"></ion-icon>
+                        50+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                        @omnifood_london
+                    </div>
+                </div>
+            </div>
+</section>
+<section class="bg-customers bg-cover bg-fixed">
+            <div class="max-w-6xl ml-64 mt-16">
+                <h2 className='text-6xl font-thin text-white' >Our customers can't live without us</h2>
+            </div>
+            <div class="max-w-6xl ml-24  mt-16 columns-3">
+                <div class="mt-10">
+                    <blockquote className='leading-6 text-white'>
+                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite className='block mt-6 text-base h-full'>
+                            <img className='h-12 rounded-full' src="customer-1.jpg" alt="Alberto Duncan"/>
+                           <div className='ml-12 mb-10 -mt-6'>Alberto Duncan</div> 
+                        </cite>
+                    </blockquote>
+                </div>
+                <div class="mt-5">
+                    <blockquote className='leading-6 text-white'>
+                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                        <cite className='block mt-10 text-base h-full'>
+                            <img className='h-12 rounded-full' src="customer-2.jpg" alt="Joana Silva"/>
+                            <div className='ml-12 mb-10 -mt-6'>Joana Silva</div>             
+                        </cite>
+                    </blockquote>
+                </div>
+                <div class="mt-6">
+                    <blockquote className='leading-6 text-white'>
+                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                        <cite className='block mt-8 text-base h-full'>
+                            <img className='h-12 rounded-full' src="customer-3.jpg" alt="Milton Chapman"/>
+                            <div className='ml-12 mb-10 -mt-6'>Milton Chapman</div> 
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="mt-3 ">
+            <div class="max-w-6xl ml-72">
+                <h2 className='text-6xl font-thin '>START EATING HEALTHY TODAY</h2>
+            </div>
+            <div class="columns-3 mt-5">
+                <div class="h-screen">
+                    <div class="border-2 border-black rounded w-4/5 ml-8">
+                        <div className='bg-slate-300 p-4 border-b-2 border-b-slate-300'>
+                            <h3>Premium</h3>
+                            <p className='text-orange-500 text-6xl'>399$ <div className='text-2xl ml-32 -mt-9'>/ month</div> </p>
+                            <p class="mt-3">That’s only 13.30$ per meal</p>
+                        </div>
+                        <div className=' p-4 border-b-2 border-b-slate-300'>
+                            <ul>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> 1 meal every day
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Order 24/7
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Access to newest creations
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Free delivery
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='h-16'>
+                        <div className='flex justify-center mt-2 h-19'>
+                            <button href="" className="flex justify-center border-2 border-orange-400 bg-orange-400 p-2 w-40 text-lg hover:text-white hover:bg-orange-500 hover:border-orange-500 rounded-full h-auto">Sign up</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-screen">
+                    <div class="border-2 border-black rounded w-4/5 ml-8">
+                        <div  className='bg-slate-300 p-4 border-b-2 border-b-slate-300'>
+                            <h3>Pro</h3>
+                            <p className='text-orange-500 text-6xl'>149$ <div className='text-2xl ml-32 -mt-9'>/ month</div></p>
+                            <p class="mt-3">That’s only 14.90$ per meal</p>
+                        </div>
+                        <div className=' p-4 border-b-2 border-b-slate-300'>
+                            <ul>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> 1 meal 10 days/month
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Order 24/7
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Access to newest creations
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Free delivery
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='h-16'>
+                        <div className='flex justify-center mt-2 h-19'>
+                            <button href="" className="flex justify-center border-2 border-orange-400 hover:bg-orange-400 p-2 w-40 text-lg hover:text-white rounded-full h-auto">Sign up</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-screen">
+                    <div class="border-2 border-black rounded w-4/5 ml-8">
+                        <div className='bg-slate-300 p-4 border-b-2 border-b-slate-300'>
+                            <h3 >Starter</h3>
+                            <p className='text-orange-500 text-6xl'>19$ <div className='text-2xl ml-32 -mt-9'>/ month</div> </p>
+                            <p class="plan-price-meal"> &nbsp; </p>
+                        </div>
+                        <div className='h-36 p-4 border-b-2 border-b-slate-300'>
+                            <ul>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> 1 meal
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Order from 8 am to 12 pm
+                                </li>
+                                <li className='ml-10'>
+                                    <ion-icon name="close-outline" class="icon-small" ></ion-icon>none
+                                </li>
+                                <li className='ml-10 '>
+                                    <ion-icon name="checkmark-outline" class="icon-small" ></ion-icon> Free delivery
+                                </li>
+                            </ul>
+                        </div>
+                        <div className='h-16'>
+                        <div className='flex justify-center mt-2 h-19'>
+                            <button href="" className="flex justify-center border-2 border-orange-400 hover:bg-orange-400 p-2 w-40 text-lg hover:text-white rounded-full h-auto">Sign up</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="bg-gray-200">
+            <div class="max-w-6xl ml-80">
+                <h2 className='text-6xl font-thin '>We're happy to hear from you</h2>
+            </div>
+            <div class="max-w-6xl">
+                <form class="w-3/5">
+                    <div class="max-w-6xl mt-8 columns-2 ml-96">
+                        <div className='flex justify-center'>
+                            <label className='mr-28' for="name">Name</label>
+                        </div>
+                        <div className='col-start-1 col-span-3'>
+                            <input className='w-96 p-2 rounded border-2 border-gray-500' type="text" name="name" id="name" placeholder="Your name" required/>
+                        </div>
+                    </div>
+                    <div class="max-w-6xl columns-2 ml-96 mt-3">
+                        <div class='flex justify-center'>
+                            <label className='mr-28' for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input className='w-96 p-2 rounded border-2 border-gray-500' type="email" name="email" id="email" placeholder="Your email" required/>
+                        </div>
+                    </div>
+                    <div class="max-w-6xl columns-2 ml-96 mt-4">
+                        <div class="mr-12 w-40">
+                            <label  for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select className='w-96 p-2 rounded border-2 border-gray-500'  name="find-us" id="find-us">
+                                <option value="Friends">Friends</option>
+                                <option value="Search engine">Search engine</option>
+                                <option value="Advertisment">Advertisment</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="max-w-6xl grid grid-cols-3 ml-96 mt-5">
+                        <div >
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="ml-16 w-24">
+                            <input type="checkbox" name="news" id="news" checked required/> Yes, please
+                        </div>
+                    </div>
+                    <div class="max-w-6xl columns-2 ml-96 mt-5">
+                        <div class="">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3 w-96">
+                            <textarea className='w-full p-2 rounded border-2 border-gray-500'  name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="max-w-6xl ">
+                        <div class="col span-1-of-3">
+                            &nbsp;
+                        </div>
+                        <div class="ml-96 pl-64">
+                            <input className=' border-2 border-orange-400 bg-orange-400 p-2 w-40 text-lg hover:text-white hover:bg-orange-500 hover:border-orange-500 rounded-full h-auto"' type="submit" value="Send it !"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
 </div>
   );
 }
